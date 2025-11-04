@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamado de TI</title>
+    <link rel="stylesheet" href="CSS/chamado.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Chamado de TI</h1>
+        <p>Selecione o tipo de problema e descreva o que está acontecendo.</p>
+
+        <form class="form-chamado">
+            
+            <div class="opcoes">
+                <label class="opcao">
+                    <input type="radio" name="problema" value="Troca de Máquina">
+                    <span>Troca de Máquina</span>
+                </label>
+
+                <label class="opcao">
+                    <input type="radio" name="problema" value="Algo não está funcionando">
+                    <span>Algo não está funcionando</span>
+                </label>
+
+                <label class="opcao">
+                    <input type="radio" name="problema" value="Problema de Servidor">
+                    <span>Problema de Servidor</span>
+                </label>
+
+                <label class="opcao">
+                    <input type="radio" name="problema" value="Problema de Internet">
+                    <span>Problema de Internet</span>
+                </label>
+            </div>
+
+            <div class="campo">
+                <label for="descricao">Descrição do Problema:</label>
+                <textarea id="descricao" name="descricao" rows="5" placeholder="Descreva o problema com o máximo de detalhes..."></textarea>
+            </div>
+
+            <div class="campo">
+                <label for="imagem">Anexar imagem (opcional):</label>
+                <input type="file" id="imagem" name="imagem" accept="image/*">
+            </div>
+
+            <button type="submit" class="btn-enviar">Enviar Chamado</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
