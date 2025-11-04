@@ -366,4 +366,49 @@ nav ul li a:hover {
     .card {
         width: 100%; /* Ocupa a largura total em telas menores */
     }
+}/* SEÇÃO SOBRE */
+.sobre {
+  background-color: white;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.sobre h2 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.sobre p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.imagem-sobre {
+  width: 180px;
+  margin-top: 2rem;
+  opacity: 0.9;
+}
+
+/* SEÇÃO VALORES */
+.valores {
+  background-color: #ecf0f1;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.valores h2 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.valores ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.valores li {
+  margin-bottom: 0.7rem;
+  color: #34495e;
 }
